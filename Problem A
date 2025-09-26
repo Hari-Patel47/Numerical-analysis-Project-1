@@ -1,0 +1,38 @@
+# Bisection method procedure
+Bisection := proc(f, a, b, tol)
+    local l, r, p, N, fp, nsteps;
+
+    # Theoretical number of steps
+    nsteps := ceil( evalf( ln((b-a)/tol)/ln(2) ) );
+    printf("Theoretical number of steps needed: %d\n\n", nsteps);
+
+    l := a;  r := b;  N := 1;
+
+    printf(" n      a             b             p             f(p)\n");
+    printf("--------------------------------------------------------\n");
+
+    while (r-l > tol) and (N <= 20) do
+        p := (l+r)/2;   fp := f(p);
+
+        printf("%2d   %10.6f   %10.6f   %10.6f   %12.8f\n", N, l, r, p, fp);
+
+        if fp = 0 then
+            return p;
+        elif f(l)*fp < 0 then
+            r := p;
+        else
+            l := p;
+        end if;
+
+        N := N+1;
+    end do;
+
+    printf("\nFinal approximation after %d iterations: %f\n", N-1, (l+r)/2);
+    return (l+r)/2;
+end proc:
+
+# Problem (a): e^(-x) = sin(x)
+f := x -> exp(-x) - sin(x);
+
+# Run on interval [0.5, 1] with tolerance 1e-4
+root_a := Bisection(f, 0.5, 1, 1e-4);
