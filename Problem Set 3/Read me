@@ -1,2 +1,7 @@
-In these folder there will be Maple code for each problem assigned to me. 
-This code will be downloadable for each problem and in the Project pdf one can see the code and the output of the code without having to download each file
+Numerical Differentiation and Integration
+
+This project explores numerical methods for approximating derivatives and definite integrals.
+Topics include finite difference formulas, numerical differentiation, error analysis, and numerical integration techniques,
+with comparisons of approximation accuracy and convergence.
+
+The Maple source code for each problem is included in this folder. The accompanying Project 3 PDF contains both the code and its output, allowing the results to be viewed without downloading or executing the individual files.
