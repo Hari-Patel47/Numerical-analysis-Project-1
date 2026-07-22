@@ -1,2 +1,6 @@
-In these folder there will be Maple code for each problem assigned to me. 
-This code will be downloadable for each problem and in the Project pdf one can see the code and the output of the code without having to download each file
+Regression and Curve Fitting
+This project explores nonlinear regression techniques by fitting exponential and power models to a given data set.
+The Maple implementation computes the regression parameters, compares the resulting models graphically, and analyzes which function best represents the observed data.
+
+The Maple source code is included in this folder. The accompanying PDF contains both the code and the generated graphs,
+allowing the implementation and results to be viewed without downloading or executing the program.
