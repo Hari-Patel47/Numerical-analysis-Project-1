@@ -1,2 +1,6 @@
-In these folder there will be Maple code for each problem assigned to me. 
-This code will be downloadable for each problem and in the Project pdf one can see the code and the output of the code without having to download each file
+Interpolation Methods
+This project explores numerical interpolation techniques including polynomial interpolation, Newton's divided differences, Hermite interpolation,
+and cubic splines. Each problem investigates the accuracy, error, and graphical behavior of different approximation methods through Maple implementations and visual analysis.
+
+The Maple source code for each problem is included in this folder. The accompanying Project 2 PDF contains both the code and its output,
+allowing the results to be viewed without downloading or executing the individual files.
