@@ -1,2 +1,6 @@
 This project had 4 people working on. My assignment was to do  1.1A, 1.1B and 1.10, which featured creating a bisection algorithm and a Newtons Method Algorithm
 There will be a text based file to see the code easily and the downloadable maple Code to run
+
+This is a a Maple implementation of the Bisection Method for numerical root-finding. 
+The program estimates the required iteration count, approximates roots of nonlinear functions to a specified tolerance,
+and displays each iteration to illustrate the convergence of the algorithm.
